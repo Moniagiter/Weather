@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата/Час" />
+
+    <TextView
+        android:id="@+id/tempText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Температура" />
+
+    <TextView
+        android:id="@+id/windText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вітер" />
+
+    <TextView
+        android:id="@+id/humidityText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вологість" />
+
+</LinearLayout>
